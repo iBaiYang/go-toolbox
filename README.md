@@ -2,6 +2,19 @@
 
 Go 语言实现的工具包
 
+## 引言
+
+无意中发现了这本书，[Go 语言编程之旅](https://golang2.eddycjy.com/)，
+这本书中的 [示例代码](https://github.com/go-programming-tour-book) 地址也找到了。
+
+书的作者 煎鱼 的博客地址是 [煎鱼博客](https://eddycjy.com/) ，
+博客的 [Github地址](https://github.com/eddycjy/blog) ，
+作者的 [Github地址](https://github.com/eddycjy)。
+
+作者还有 [Go 语言进阶之旅](https://golang1.eddycjy.com/)。
+
+这是跟着作者学习的一个示例项目。
+
 ## 示例用法
 
 查看命令帮助信息：
