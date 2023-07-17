@@ -27,11 +27,6 @@ var desc = strings.Join([]string{
 var str string
 var mode int8
 
-func init() {
-	wordCmd.Flags().StringVarP(&str, "str", "s", "", "请输入单词内容")
-	wordCmd.Flags().Int8VarP(&mode, "mode", "m", 0, "请输入单词转换的模式")
-}
-
 var wordCmd = &cobra.Command{
 	Use:   "word",
 	Short: "单词格式转换",
@@ -55,4 +50,9 @@ var wordCmd = &cobra.Command{
 
 		log.Printf("输出结果: %s", content)
 	},
+}
+
+func init() {
+	wordCmd.Flags().StringVarP(&str, "str", "s", "", "请输入单词内容")
+	wordCmd.Flags().Int8VarP(&mode, "mode", "m", 0, "请输入单词转换的模式")
 }
